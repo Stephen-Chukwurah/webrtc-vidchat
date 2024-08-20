@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.light {
+  --primary: rgb(0 63 184);
+  --surface-tint: rgb(0 79 228);
+  --on-primary: rgb(255 255 255);
+  --primary-container: rgb(28 96 255);
+  --on-primary-container: rgb(255 255 255);
+  --secondary: rgb(156 28 36);
+  --on-secondary: rgb(255 255 255);
+  --secondary-container: rgb(207 66 68);
+  --on-secondary-container: rgb(255 255 255);
+  --tertiary: rgb(96 0 123);
+  --on-tertiary: rgb(255 255 255);
+  --tertiary-container: rgb(143 38 175);
+  --on-tertiary-container: rgb(255 255 255);
+  --error: rgb(186 26 26);
+  --on-error: rgb(255 255 255);
+  --error-container: rgb(255 218 214);
+  --on-error-container: rgb(65 0 2);
+  --background: rgb(250 248 255);
+  --on-background: rgb(25 27 36);
+  --surface: rgb(250 248 255);
+  --on-surface: rgb(25 27 36);
+  --surface-variant: rgb(223 225 245);
+  --on-surface-variant: rgb(67 70 86);
+  --outline: rgb(115 118 135);
+  --outline-variant: rgb(195 197 217);
+  --shadow: rgb(0 0 0);
+  --scrim: rgb(0 0 0);
+  --inverse-surface: rgb(46 48 58);
+  --inverse-on-surface: rgb(240 240 253);
+  --inverse-primary: rgb(182 196 255);
+  --primary-fixed: rgb(220 225 255);
+  --on-primary-fixed: rgb(0 22 78);
+  --primary-fixed-dim: rgb(182 196 255);
+  --on-primary-fixed-variant: rgb(0 59 175);
+  --secondary-fixed: rgb(255 218 215);
+  --on-secondary-fixed: rgb(65 0 5);
+  --secondary-fixed-dim: rgb(255 179 175);
+  --on-secondary-fixed-variant: rgb(142 16 28);
+  --tertiary-fixed: rgb(251 215 255);
+  --on-tertiary-fixed: rgb(51 0 68);
+  --tertiary-fixed-dim: rgb(241 175 255);
+  --on-tertiary-fixed-variant: rgb(119 0 152);
+  --surface-dim: rgb(217 217 230);
+  --surface-bright: rgb(250 248 255);
+  --surface-container-lowest: rgb(255 255 255);
+  --surface-container-low: rgb(243 242 255);
+  --surface-container: rgb(237 237 250);
+  --surface-container-high: rgb(231 231 244);
+  --surface-container-highest: rgb(225 225 238);
+}
+
+
+.dark {
+  --primary: rgb(182 196 255);
+  --surface-tint: rgb(182 196 255);
+  --on-primary: rgb(0 40 125);
+  --primary-container: rgb(0 86 245);
+  --on-primary-container: rgb(255 255 255);
+  --secondary: rgb(255 179 175);
+  --on-secondary: rgb(104 0 14);
+  --secondary-container: rgb(207 66 68);
+  --on-secondary-container: rgb(255 255 255);
+  --tertiary: rgb(241 175 255);
+  --on-tertiary: rgb(84 0 108);
+  --tertiary-container: rgb(114 0 146);
+  --on-tertiary-container: rgb(248 204 255);
+  --error: rgb(255 180 171);
+  --on-error: rgb(105 0 5);
+  --error-container: rgb(147 0 10);
+  --on-error-container: rgb(255 218 214);
+  --background: rgb(17 19 28);
+  --on-background: rgb(225 225 238);
+  --surface: rgb(17 19 28);
+  --on-surface: rgb(225 225 238);
+  --surface-variant: rgb(67 70 86);
+  --on-surface-variant: rgb(195 197 217);
+  --outline: rgb(141 144 162);
+  --outline-variant: rgb(67 70 86);
+  --shadow: rgb(0 0 0);
+  --scrim: rgb(0 0 0);
+  --inverse-surface: rgb(225 225 238);
+  --inverse-on-surface: rgb(46 48 58);
+  --inverse-primary: rgb(0 79 228);
+  --primary-fixed: rgb(220 225 255);
+  --on-primary-fixed: rgb(0 22 78);
+  --primary-fixed-dim: rgb(182 196 255);
+  --on-primary-fixed-variant: rgb(0 59 175);
+  --secondary-fixed: rgb(255 218 215);
+  --on-secondary-fixed: rgb(65 0 5);
+  --secondary-fixed-dim: rgb(255 179 175);
+  --on-secondary-fixed-variant: rgb(142 16 28);
+  --tertiary-fixed: rgb(251 215 255);
+  --on-tertiary-fixed: rgb(51 0 68);
+  --tertiary-fixed-dim: rgb(241 175 255);
+  --on-tertiary-fixed-variant: rgb(119 0 152);
+  --surface-dim: rgb(17 19 28);
+  --surface-bright: rgb(55 57 67);
+  --surface-container-lowest: rgb(12 14 22);
+  --surface-container-low: rgb(25 27 36);
+  --surface-container: rgb(29 31 40);
+  --surface-container-high: rgb(39 42 51);
+  --surface-container-highest: rgb(50 52 62);
+}
